@@ -12,9 +12,9 @@
 
 ## 🛠️ Tecnologías utilizadas
 
-- HTML5  
-- CSS3  
-- JavaScript (vanilla)  
+- HTML
+- CSS 
+- JavaScript 
 
 ## 🚀 Cómo usar
 
@@ -24,5 +24,14 @@
 4️⃣ **Para reiniciar**, presiona el botón "Reiniciar" y vuelve a empezar.  
 
 ## 📂 Estructura del proyecto
+📂 amigo-secreto │-- 📂 assets/ # Imágenes y recursos │-- 📄 index.html # Estructura principal de la aplicación │-- 🎨 style.css # Estilos de la aplicación │-- 🖥️ app.js # Lógica del sorteo │-- 📜 README.md # Información sobre el proyecto
 
+📌 Mejoras futuras
+Permitir más participantes en la lista
+Implementar la opción de emparejamiento sin repeticiones
+Agregar animaciones y efectos visuales
 
+💡 Autor
+📌 Micaela Montecino
+🔗 LinkedIn: https://www.linkedin.com/in/micaela-montecino-375b811b7/
+🐙 GitHub: https://github.com/micamnt
