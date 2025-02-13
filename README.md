@@ -27,9 +27,10 @@
 📂 amigo-secreto │-- 📂 assets/ # Imágenes y recursos │-- 📄 index.html # Estructura principal de la aplicación │-- 🎨 style.css # Estilos de la aplicación │-- 🖥️ app.js # Lógica del sorteo │-- 📜 README.md # Información sobre el proyecto
 
 📌 Mejoras futuras
-Permitir más participantes en la lista
-Implementar la opción de emparejamiento sin repeticiones
-Agregar animaciones y efectos visuales
+
+- Permitir más participantes en la lista
+- Implementar la opción de emparejamiento sin repeticiones
+- Agregar animaciones y efectos visuales
 
 💡 Autor
 📌 Micaela Montecino
