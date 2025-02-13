@@ -88,8 +88,18 @@ body {
 }
 
 .button-container {
-    width: 300px;
-    justify-content: center;
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 20px; /* Espacio entre los botones */
+    width: 100%;
+    max-width: 600px; /* Asegura que ambos botones ocupen el mismo ancho */
+    margin-top: 20px;
+}
+
+.button-draw,
+.button-reset {
+    width: 100%; /* Ambos botones tienen el mismo tamaño */
+    max-width: 280px; /* Ajusta el ancho sin que sean demasiado grandes */
 }
 
 /* Estilos de entrada de texto */
@@ -127,19 +137,29 @@ button {
 
 /* Listas */
 ul {
-    list-style-type: none;
-    color: var(--color-text);
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
-    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
 }
 
-.result-list {
-    margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
-    font-weight: bold;
+ul li {
+    padding: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: var(--color-text);
     text-align: center;
+    border-radius: 0;
+    background: none;
+}
+
+.result-message {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #05DF05;
+    text-align: center;
+    margin-top: 20px; /* Más separación del botón */
+    margin-bottom: 30px; /* Más separación de la lista */
 }
 
 /* Botón de sortear título */
@@ -159,4 +179,29 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Botón de reiniciar */
+.button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #4B69FD;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-reset:hover {
+    background-color: #3a55d1;
+    color: white;
 }
